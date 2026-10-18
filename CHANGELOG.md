@@ -16,6 +16,7 @@ catalog PR; there is no automatic publishing or merging of these notes.
 
 ### Updated
 
+- YYLO's entry distinguishes unreleased source from stable packages, Advanced from Simple initialization, and default skill downloads.
 - Task-based browsing now distinguishes autonomous agents from coding agents.
 - Routine health refreshes can merge after scoped-data and CI checks; flagged snapshots and project submissions still need human review.
 - Health automation waits for its dispatched CI run before merging instead of relying on bot-triggered follow-up events.

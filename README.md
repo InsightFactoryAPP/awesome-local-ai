@@ -261,7 +261,8 @@ inactivity does not prove abandonment. See [maintenance](docs/maintenance.md).
   - Documentation reviewed: 2026-10-18. Repository: not checked yet.
   - Note: Requires Node.js 20.10 or newer and Git; upstream does not document per-operating-system support.
   - Note: The orchestrator itself contacts no model provider: subagents such as Pi are installed and configured separately, and provider credentials, model availability, and any local model servers remain external.
-  - Note: yy init bootstraps a .juno\_task workspace in the target repository and, in an empty unborn Git repository, creates the initial workspace commit and a detached protected integration-owner worktree.
+  - Note: Evidence describes unreleased CLI 0.2.12; features and required companion versions may differ from the published stable package.
+  - Note: Advanced-mode bootstrap can create an initial commit and protected integration-owner worktree in an empty Git repository. Simple mode uses a shared checkout; fresh Simple initialization downloads agent skills by default unless --no-skills is set. Review skills before loading them.
 
 <a id="evaluation"></a>
 
